@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+<title>Untitled Document</title>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:400,300italic,300,400italic,700' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.screwdefaultbuttonsV2.js"></script>
+<script type="text/javascript">
+		$(function(){
+		
+			$('input:radio').screwDefaultButtons({
+				image: 'url("images/radioSmall.jpg")',
+				width: 43,
+				height: 43
+			});
+			
+			$('input:checkbox').screwDefaultButtons({
+				image: 'url("images/checkboxSmall.jpg")',
+				width: 43,
+				height: 43
+			});
+
+			
+		
+		});
+	</script>
+</head>
+
+<body>
+<div id="container">
+<div id="visitourwebsite"><a href="http://www.biscuitsandbath.com">Visit Our Website</a></div>
+<div id="formcontent">
+<h2>Why should you subscribe 
+to biscuits    bath emails? </h2>
+<input type="checkbox" name="ex5_a" class="ex5" style="float:left;"><div class="buttontext"><h2>Service Confirmation</h2> Emails Your pet’s safety is our priority therefore you will always receive these emails to help us and you confirm your dog’s care.  Includes new member welcome, reservation confirmation emails (sent the day before), package schedule summaries, Private Lesson confirmation, and Train-and-Play confirmation.  </div>
+<input type="checkbox" name="ex5_b" class="ex5"  style="float:left;"><div class="buttontext"><h2>Reservation Change Notifications</h2>
+  Did we make the correct modification to your dog’s 24-Hour stay?  Receive an email whenever changes are made to your pending reservations.</div>
+<input type="checkbox" name="ex5_c" class="ex5"  style="float:left;"><div class="buttontext"><h2>Marketing Emails</h2>
+Don’t miss your favorite groomer with Due Grooming reminders.  Don’t lose access to our calendar month cost saving packages and 10% off a la carte services with Membership Expiration reminders.  Make sure you’re taking advantage of your Reward Points and any Referral Rewards.</div>
+<input type="checkbox" name="ex5_d" class="ex5"  style="float:left;"><div class="buttontext">
+  <h2>Feedback Emails</h2>
+Your feedback is critical to our continued improvement.  Receiving these emails offers you the opportunity to discuss your experiences with B&amp;B.  Of course you can always stop by or call 212-419-2500 to discuss your feedback.  Thank you in advance!</div>
+<div id="bottomform">
+  <div id="update"><a href="#">Update My Preferences</a></div> <div id="updateright">* Don’t forget to add clientcare@biscuitsandbath.com to your safe-senders contact list in your email account.</div>
+  <div style="clear: both;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 17px;
+    width: 230px;"> Biscuits & Bath © 2013, All Rights Reserved</div>
+  </div><!--form-->
+<script>
+			$('.selectAll').click(function(){
+				$('.ex5').screwDefaultButtons('check');
+			});
+		</script>
+</div>
+
+</div>
+</body>
+</html>
